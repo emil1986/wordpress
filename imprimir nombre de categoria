@@ -1,0 +1,1 @@
+<?php $category = get_the_category(); echo $category[1]->cat_name; ?>
