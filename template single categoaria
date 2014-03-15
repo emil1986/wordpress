@@ -1,0 +1,8 @@
+<?php
+ if ( have_posts() ) { the_post(); rewind_posts(); }
+ if ( in_category(10) || in_category (11)   ) {
+ include(TEMPLATEPATH . '/singleproductos.php');
+ } else {
+ include(TEMPLATEPATH . '/singleproyectos.php');
+ }
+ ?>
